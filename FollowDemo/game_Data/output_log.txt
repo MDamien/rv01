@@ -1,0 +1,20 @@
+Initialize engine version: 4.5.4f1 (e036f44c54c9)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.0]
+    Renderer: NVIDIA GeForce 8400 GS     (ID=0x6e4)
+    Vendor:   NVIDIA
+    VRAM:     499 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Famille\Documents\git\rv01\FollowDemo\game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Famille\Documents\git\rv01\FollowDemo\game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Famille\Documents\git\rv01\FollowDemo\game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Famille\Documents\git\rv01\FollowDemo\game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Famille\Documents\git\rv01\FollowDemo\game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Famille\Documents\git\rv01\FollowDemo\game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.176 seconds
+desktop: 1440x900 60Hz; virtual: 2464x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+WARNING: Shader Unsupported: 'Toon/Basic Outline' - Pass 'OUTLINE' shader state not supported
+Crash!!!
