@@ -9,13 +9,13 @@ function Start () {
 
 function Update () {
    
-	if (Input.GetKey ("left")){
+	if (Input.GetKey ("left") || Input.GetKey ("a")){
 		transform.Rotate(Vector3.down * rotate_speed * Time.deltaTime);
-	}if (Input.GetKey ("right")){
+	}if (Input.GetKey ("right") || Input.GetKey ("d")){
 		transform.Rotate(Vector3.up * rotate_speed * Time.deltaTime);
-	}if (Input.GetKey ("up")){
+	}if (Input.GetKey ("up") || Input.GetKey ("w")){
 		transform.Translate(Vector3.forward * speed_forward * Time.deltaTime);
-	}if (Input.GetKey ("down")){
+	}if (Input.GetKey ("down") || Input.GetKey ("s")){
 		transform.Translate(Vector3.back * speed_forward * Time.deltaTime);
 	}if (Input.GetKey ("escape")) {
 		Application.Quit();
