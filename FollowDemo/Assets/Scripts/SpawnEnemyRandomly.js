@@ -8,7 +8,7 @@ var maxEnemyCount : int = 15;
 var enemyCount : int = 0;
 
 //Keeping tracks of last spawn
-var timeSinceLastSpawn : float = 0.0;
+private var timeSinceLastSpawn : float = 0.0;
 
 function Start () {
 	spawnEnemy();
@@ -16,7 +16,7 @@ function Start () {
 
 function Update () {
 	timeSinceLastSpawn += Time.deltaTime;
-	Debug.Log(timeSinceLastSpawn);
+	//Debug.Log(timeSinceLastSpawn);
 	if(timeSinceLastSpawn >= timeBeforeNextSpawn && enemyCount < maxEnemyCount) {
 		spawnEnemy();
 		timeSinceLastSpawn = 0.0;
@@ -24,7 +24,7 @@ function Update () {
 }
 
 function spawnEnemy() {
-	Debug.Log("Spawning !");
+	//Debug.Log("Spawning !");
 	
 	//Creating new position for random spot to spawn from (based on terrain's transform)
 	var newPosition = transform.position;

@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnEnemyRandomly.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GunController.js">
     <Files>
-      <File FileName="Assets/Scripts/SpawnEnemyRandomly.js" Line="46" Column="2" />
-      <File FileName="Assets/Scripts/SpawnEnemy.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/SpawnEnemyRandomly.js" Line="4" Column="38" />
-      <File FileName="Assets/Scripts/BolideController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GunController.js" Line="19" Column="37" />
+      <File FileName="Assets\Scripts\SpawnEnemyRandomly.js" Line="19" Column="31" />
+      <File FileName="Assets\Scripts\BolideController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpawnEnemy.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
