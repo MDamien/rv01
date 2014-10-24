@@ -57,7 +57,14 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\MiddleVR\Assets\Materials\OVRLensCorrection.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+ <Reference Include="MiddleVR_dotNet">
+ <HintPath>C:/Users/Tristan/rv01/FollowDemo/Assets/MiddleVR/MiddleVR_dotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="MiddleVR_Unity3D">
+ <HintPath>C:/Users/Tristan/rv01/FollowDemo/Assets/MiddleVR/MiddleVR_Unity3D.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
