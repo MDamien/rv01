@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\BolideController.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Documents\New Unity Project\Assets\scripts\mousecontrol.js">
     <Files>
-      <File FileName="Assets\Scripts\BolideController.js" Line="48" Column="90" />
-      <File FileName="Assets\Scripts\GunController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnEnemyRandomly.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnEnemy.js" Line="1" Column="1" />
+      <File FileName="..\..\Documents\New Unity Project\Assets\scripts\mousecontrol.js" Line="19" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
