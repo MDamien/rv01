@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Documents\New Unity Project\Assets\scripts\mousecontrol.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GunController.js">
     <Files>
-      <File FileName="..\..\Documents\New Unity Project\Assets\scripts\mousecontrol.js" Line="19" Column="33" />
+      <File FileName="Assets\Scripts\GunController.js" Line="3" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
