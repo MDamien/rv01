@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-var monsterPrefab : GameObject;
+var enemyPrefab : GameObject;
 var timeBeforeNextSpawn : float = 3;
 
 //Number of enemies on the map
@@ -40,7 +40,7 @@ function spawnEnemy() {
 		newPosition.y = hit.point.y + 20.0;
 	}
 
-	var instance : GameObject = Instantiate(monsterPrefab, newPosition, newRotation);
+	var instance : GameObject = Instantiate(enemyPrefab, newPosition, newRotation);
 	instance.transform.localScale = new Vector3(30, 30, 30);
 	
 	enemyCount++;
