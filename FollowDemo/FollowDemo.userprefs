@@ -1,20 +1,11 @@
 ﻿<Properties>
-<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController.js">
     <Files>
-      <File FileName="Assets/Scripts/EnemyController.js" Line="29" Column="23" />
-      <File FileName="Assets/Scripts/EnemyController.js" Line="40" Column="1" />
-      <File FileName="Assets/FT_CaveWorm/Script/SubstanceGUI.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/GunController.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/EnemyController.js" Line="3" Column="30" />
+      <File FileName="Assets/Scripts/GunController.js" Line="38" Column="72" />
       <File FileName="Assets/Scripts/SpawnEnemyRandomly.js" Line="43" Column="1" />
-      <File FileName="Assets/Scripts/SpawnEnemy.js" Line="7" Column="1" />
-=======
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GunController.js">
-    <Files>
-      <File FileName="Assets\Scripts\GunController.js" Line="3" Column="17" />
->>>>>>> 0a5f5827d691376feeb801867b6ed4933e0a4c06
+      <File FileName="Assets/Scripts/SpawnEnemy.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

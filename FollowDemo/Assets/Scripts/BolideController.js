@@ -76,7 +76,13 @@ if (Input.GetAxis("Horizontal")<0){
 		
 		//calcul de l'angle
 		y_change=(hit.point.y-y_pos)*100;
-		if(y_change>250 && speed_forward>0){speed_forward=0;acceleration=0;down=1;}
+		
+		if(y_change>250 && speed_forward>0)
+		{
+			speed_forward=0;
+			acceleration=0;
+			down=1;
+		}
 		
 		print("perc : "+ y_change);
 		y_pos=hit.point.y;
@@ -84,7 +90,7 @@ if (Input.GetAxis("Horizontal")<0){
 	}else if (Physics.Raycast (transform.position, Vector3.up, hit)) { //when under the floor
 		transform.position.y = hit.point.y+dist_to_floor;
 	}
-	;
+	
 	
 	/*
 	//test raycast mouse
