@@ -84,7 +84,7 @@ if (Input.GetAxis("Horizontal")<0){
 			down=1;
 		}
 		
-		print("perc : "+ y_change);
+		//print("perc : "+ y_change);
 		y_pos=hit.point.y;
 		
 	}else if (Physics.Raycast (transform.position, Vector3.up, hit)) { //when under the floor
