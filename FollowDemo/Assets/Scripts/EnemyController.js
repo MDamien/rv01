@@ -17,15 +17,17 @@ function Update () {
 
 function Move()
 {
+	
 	var hit : RaycastHit;
 	
+	/*
 	var goTo: Vector3 = bolide.transform.position;
 	goTo.x -= 70;
 	
 	transform.LookAt(goTo);
 
 	transform.position += transform.forward * speed * Time.deltaTime;
-
+*/
     if (Physics.Raycast (transform.position, Vector3.down, hit)) {
 		transform.position.y = hit.point.y + distToFloor;
 	}
@@ -55,3 +57,10 @@ function FocusEnded() {
 		Debug.Log("FocusEnded");
 	}
 }
+
+@RPC
+function Kill(){
+	print("killlleeedd");
+	Destroy(this.gameObject);
+}
+

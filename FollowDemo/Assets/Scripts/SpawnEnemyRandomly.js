@@ -44,7 +44,7 @@ function spawnEnemy() {
 		newPosition.y = hit.point.y + 20.0;
 	}	
 
-	var instance : GameObject = Network.Instantiate(enemyPrefab, newPosition, newRotation,0);
+	var instance : GameObject = Network.Instantiate(enemyPrefab, newPosition, newRotation, 42);
 	instance.transform.eulerAngles = new Vector3(30, 30, 30);
 	
 	enemyCount++;

@@ -1,5 +1,4 @@
-﻿#pragma strict
-
+﻿
 var impact: GameObject;
 private var lastEnemyFocused: GameObject = null;
 private var lastEnemyController: EnemyController = null;
@@ -23,7 +22,11 @@ function Update () {
 			Debug.DrawLine (transform.position, hit.point, Color.blue);
 			//hit.collider.renderer.enabled = false;
 			if(hit.collider.gameObject.name != 'terrain')
-				Network.Destroy(hit.collider.gameObject);
+			{
+				//Network.Destroy(hit.collider.gameObject.GetComponent(NetworkView).viewID);
+				//Network.Destroy(hit.collider.gameObject);
+				hit.collider.gameObject.GetComponent(NetworkView).RPC('Kill', RPCMode.All);
+			}
 		}
 	}
 }
