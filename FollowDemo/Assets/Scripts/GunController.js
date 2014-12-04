@@ -26,6 +26,8 @@ function Update () {
 				//Network.Destroy(hit.collider.gameObject.GetComponent(NetworkView).viewID);
 				//Network.Destroy(hit.collider.gameObject);
 				hit.collider.gameObject.GetComponent(NetworkView).RPC('Kill', RPCMode.All);
+				Network.RemoveRPCs(hit.collider.gameObject.GetComponent(NetworkView).viewID);
+				
 			}
 		}
 	}
