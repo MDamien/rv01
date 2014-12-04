@@ -23,7 +23,7 @@ function Update () {
 			Debug.DrawLine (transform.position, hit.point, Color.blue);
 			//hit.collider.renderer.enabled = false;
 			if(hit.collider.gameObject.name != 'terrain')
-				Destroy(hit.collider.gameObject);
+				Network.Destroy(hit.collider.gameObject);
 		}
 	}
 }
