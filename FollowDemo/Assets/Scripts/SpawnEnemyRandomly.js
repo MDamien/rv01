@@ -2,6 +2,7 @@
 
 var enemyPrefab : GameObject;
 var timeBeforeNextSpawn : float = 3;
+var GLOBALS: GameObject;
 
 //Number of enemies on the map
 var maxEnemyCount : int = 15;
@@ -11,16 +12,19 @@ var enemyCount : int = 0;
 private var timeSinceLastSpawn : float = 0.0;
 
 function Start () {
-	spawnEnemy();
+if(GLOBALS.GetComponent(globals).isDriver)spawnEnemy();
 }
 
 function Update () {
+if(GLOBALS.GetComponent(globals).isDriver)
+{
 	timeSinceLastSpawn += Time.deltaTime;
 	//Debug.Log(timeSinceLastSpawn);
 	if(timeSinceLastSpawn >= timeBeforeNextSpawn && enemyCount < maxEnemyCount) {
 		spawnEnemy();
 		timeSinceLastSpawn = 0.0;
 	}
+}
 }
 
 function spawnEnemy() {
@@ -38,10 +42,10 @@ function spawnEnemy() {
 	var hit : RaycastHit;
 	if (Physics.Raycast (newPosition, Vector3.up, hit)) { //Spawned under the floor
 		newPosition.y = hit.point.y + 20.0;
-	}
+	}	
 
-	var instance : GameObject = Instantiate(enemyPrefab, newPosition, newRotation);
-	instance.transform.localScale = new Vector3(30, 30, 30);
+	var instance : GameObject = Network.Instantiate(enemyPrefab, newPosition, newRotation,0);
+	instance.transform.eulerAngles = new Vector3(30, 30, 30);
 	
 	enemyCount++;
 }
