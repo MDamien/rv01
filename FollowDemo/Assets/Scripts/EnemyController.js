@@ -64,6 +64,6 @@ function Kill(){
 	
 	newPosition.x += Random.Range(transform.gameObject.renderer.bounds.min.x, transform.gameObject.renderer.bounds.max.x);
 	newPosition.z += Random.Range(transform.gameObject.renderer.bounds.min.z, transform.gameObject.renderer.bounds.max.z);
-	
+	transform.position = newPosition;
 }
 

@@ -5,3 +5,17 @@ Cmd: compileSnippet
   api=8 type=0 insize=2380 outsize=1438 kw= ok=1
 Cmd: compileSnippet
   api=1 type=1 insize=2380 outsize=783 kw= ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=3359 outsize=3072 kw=WATER_REFRACTIVE ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=3359 outsize=449 kw=WATER_REFLECTIVE ok=1
+Cmd: compileSnippet
+  api=8 type=0 insize=3359 outsize=2511 kw=WATER_SIMPLE ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=3359 outsize=810 kw=WATER_REFRACTIVE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3359 outsize=823 kw=WATER_SIMPLE ok=1
+Unhandled exception: Readfile from pipe failed. GLE=Le canal de communication a été fermé.
+
+
+Quitting shader compiler process

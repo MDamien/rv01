@@ -4,7 +4,7 @@
 //var speed_forward = 10.0;
 private var speed_forward = 0.0;
 var rotate_speed = 1.0;
-var dist_to_floor = 20;
+var dist_to_floor = 2.5;
 var max_speed=300;
 var GLOBALS: GameObject;
 private var acceleration=0;
