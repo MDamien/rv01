@@ -76,6 +76,6 @@ function SpawnEnemyEdgeMap() {
 		newPosition.y = hit.point.y + 20.0;
 	}
 
-	var instance : GameObject = Instantiate(enemyPrefab, newPosition, newRotation);
-	instance.transform.localScale = new Vector3(30, 30, 30);
+	var instance : GameObject = Network.Instantiate(enemyPrefab, newPosition, newRotation,0);
+	instance.transform.eulerAngles = new Vector3(30, 30, 30);
 }

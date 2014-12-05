@@ -25,7 +25,7 @@ public class testtt : MonoBehaviour {
 								//print(hit.collider);
 								//Debug.DrawLine (transform.position, hit.point, Color.blue);
 								//hit.collider.renderer.enabled = false;
-								if (hit.collider.gameObject.name != "terrain")
+				if (hit.collider.gameObject.name != "terrain" && hit.collider.gameObject.name != "chateau")
 								//Network.Destroy (hit.collider.gameObject);
 									hit.collider.gameObject.networkView.RPC("Kill", RPCMode.All);
 						}

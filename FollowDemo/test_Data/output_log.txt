@@ -20,17 +20,150 @@ Platform assembly: C:\Users\Tristan\rv01\FollowDemo\test_Data\Managed\MiddleVR_d
 Loading C:\Users\Tristan\rv01\FollowDemo\test_Data\Managed\MiddleVR_dotNet.dll into Unity Child Domain
 Platform assembly: C:\Users\Tristan\rv01\FollowDemo\test_Data\Managed\MiddleVR_Unity3D.dll (this message is harmless)
 Loading C:\Users\Tristan\rv01\FollowDemo\test_Data\Managed\MiddleVR_Unity3D.dll into Unity Child Domain
-- Completed reload, in  0.083 seconds
-desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+- Completed reload, in  0.198 seconds
 <RI> Initializing input.
 <RI> Input initialized.
-WARNING: Shader Unsupported: 'Toon/Basic Outline' - Pass 'OUTLINE' shader state not supported
-UnloadTime: 0.319067 ms
-System memory in use before: 13.8 MB.
+desktop: 1024x768 60Hz; virtual: 1024x768 at 0,0
+UnloadTime: 1.037973 ms
+System memory in use before: 12.8 MB.
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
-System memory in use after: 13.7 MB.
+System memory in use after: 12.7 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 261.
-Total: 1.237893 ms (FindLiveObjects: 0.021866 ms CreateObjectMapping: 0.020081 ms MarkObjects: 0.166450 ms  DeleteObjects: 0.020973 ms)
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 251.
+Total: 2.986294 ms (FindLiveObjects: 0.046409 ms CreateObjectMapping: 0.050426 ms MarkObjects: 0.335578 ms  DeleteObjects: 0.048641 ms)
 
 Platform assembly: C:\Users\Tristan\rv01\FollowDemo\test_Data\Managed\Boo.Lang.dll (this message is harmless)
+FocusBegan
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EnemyController:FocusBegan() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\EnemyController.js:46)
+GunController:ManageEnemyFocus(RaycastHit) (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:44)
+GunController:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:15)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+FocusEnded
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EnemyController:FocusEnded() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\EnemyController.js:57)
+GunController:ManageEnemyFocus(RaycastHit) (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:49)
+GunController:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:15)
+ 
+(Filename: C Line: 0)
+
+FocusBegan
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EnemyController:FocusBegan() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\EnemyController.js:46)
+GunController:ManageEnemyFocus(RaycastHit) (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:44)
+GunController:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:15)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+shot
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\BuildAgent\work\d63dfc6385190b60\artifacts\StandalonePlayerGenerated\UnityEngineMonoBehaviour.cs:99)
+testtt:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\testtt.cs:23)
+ 
+(Filename: C Line: 0)
+
+FocusEnded
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EnemyController:FocusEnded() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\EnemyController.js:57)
+GunController:ManageEnemyFocus(RaycastHit) (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:49)
+GunController:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:15)
+ 
+(Filename: C Line: 0)
+
+FocusBegan
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EnemyController:FocusBegan() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\EnemyController.js:46)
+GunController:ManageEnemyFocus(RaycastHit) (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:44)
+GunController:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:15)
+ 
+(Filename: C Line: 0)
+
+FocusEnded
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+EnemyController:FocusEnded() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\EnemyController.js:57)
+GunController:ManageEnemyFocus(RaycastHit) (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:49)
+GunController:Update() (at C:\Users\Tristan\rv01\FollowDemo\Assets\Scripts\GunController.js:15)
+ 
+(Filename: C Line: 0)
+

@@ -13,11 +13,13 @@ private var enemyCount : int = 0;
 private var timeSinceLastSpawn : float = 0.0;
 
 function Start () {
+
 if(GLOBALS.GetComponent(globals).isDriver)
 	{
-	var terrain:GameObject = GameObject.Find("Water");
+	var terrain:GameObject = GameObject.Find("terrain");
 	terrainSpawn = terrain.GetComponent("SpawnEnemyRandomly");
 	     }
+	     
 }
 
 function Update () {
@@ -31,4 +33,8 @@ function Update () {
 		timeSinceLastSpawn = 0.0;
 	}
 	}
+	
 }
+
+
+
